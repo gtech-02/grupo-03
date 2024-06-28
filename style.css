@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+  --cor-primaria: #C92071;
+  --cor-secundaria: #B5B6F2;
+  --cor-terciaria: #991956;
+  --cor-erro: #EE4266;
+  --cor-sucesso: #52CA76;
+  --cor-aviso: #F6AA1C;
+
+  /* Escalas de cinza */
+  --cinza-escuro: #F6AA1C;
+  --cinza-escuro-2: #474747;
+  --cinza-escuro-3: #666666;
+  --cinza-claro: #8F8F8F;
+  --cinza-claro-2: #CCCCCC;
+  --cinza-claro-3: #F5F5F5;
+  --branco: #FFFFFF;
+}
+
 * {
   margin: 0;
   padding: 0;
