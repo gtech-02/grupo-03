@@ -1,3 +1,25 @@
 #cabecalho-padrao {
 
+
 }
+.icon-search{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 18px;
+}
+.d-flex{
+    margin-right: 100px;
+    width:500px;
+}
+.container-fluid{
+    justify-content: space-evenly !important;
+    gap: 100px;
+}
+.btn-cadastro{
+    color: black !important;
+}
+.btn-entrar{
+    
+}
+
+
