@@ -7,6 +7,19 @@
     margin-left: 450px;
     margin-top: 18px;
 }
+.logo-pesquisar{
+    display: flex;
+}
+.nav-link:hover{
+    color: #C92071 !important;
+}
+.nav-link{
+    color: black !important;
+}
+.menu-navegação{
+    margin-top: 20px;
+    margin-left: 45px;
+}
 .d-flex{
     margin-right: 100px;
     width:500px;
@@ -19,7 +32,12 @@
     color: black !important;
 }
 .btn-entrar{
-    
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:  #C92071 ;
+    color: white;
+    text-align: center;
+    border-color: #C92071;
 }
 
 
