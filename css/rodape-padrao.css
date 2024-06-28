@@ -1,4 +1,7 @@
 #rodape-padrao {
-    display: flex;
-
+    display: flex; 
+    width: 100%;
+    background-color: var(--dark-gray);
+    color: var(--white);
 }
+
