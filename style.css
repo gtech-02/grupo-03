@@ -8,6 +8,6 @@
   scroll-behavior: smooth;
 }
 
-@import url(css/header-default.css);
-@import url(css/footer-default.css);
-@import url(css/main-home-page.css);
+@import url(css/cabecalho-padrao.css);
+@import url(css/rodape-padrao.css);
+@import url(css/main-pagina-inicial.css);
