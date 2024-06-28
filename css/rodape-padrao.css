@@ -21,26 +21,26 @@
     width: 70%;
 }
 
-.col__logo {
+.col_logo {
     height: 44px;
     width: 253px;
 }
 
-.col__subtitulo{
+.col_subtitulo{
     font-size: 18px;
     margin-top: 0.8em;
 }
 
-.col__icons {
+.col_icons {
     display: flex;
     gap: 1.5em;
 }
 
-.col__texto {
+.col_texto {
     margin-top: 1em;
 }
 
-#col__subtitulo__first {
+#col_subtitulo_first {
     margin-top: 1em;
 }
 
