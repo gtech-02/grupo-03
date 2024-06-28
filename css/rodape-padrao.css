@@ -1,7 +1,56 @@
 #rodape-padrao {
     display: flex; 
     width: 100%;
-    background-color: var(--dark-gray);
-    color: var(--white);
+    background-color: var( --cinza-escuro);
+    color: var(--branco);
+}
+
+.grids {
+    align-items: flex-start;
+    margin: 4em 0 2em 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+#desc-digital {
+    width: 70%;
+}
+
+.col__logo {
+    height: 44px;
+    width: 253px;
+}
+
+.col__subtitulo{
+    font-size: 18px;
+    margin-top: 0.8em;
+}
+
+.col__icons {
+    display: flex;
+    gap: 1.5em;
+}
+
+.col__texto {
+    margin-top: 1em;
+}
+
+#col__subtitulo__first {
+    margin-top: 1em;
+}
+
+.informations {
+    margin-left: 12em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0.8em;
 }
 
