@@ -8,6 +8,6 @@
   scroll-behavior: smooth;
 }
 
-@import url(css/header-home-page.css);
+@import url(css/header-default.css);
+@import url(css/footer-default.css);
 @import url(css/main-home-page.css);
-@import url(css/footer-home-page.css);
