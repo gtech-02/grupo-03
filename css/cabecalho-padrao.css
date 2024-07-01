@@ -2,36 +2,40 @@
 
 
 }
+.navbar{
+    padding: 1.2rem;
+    display: block;
+    justify-content: space-evenly !important;
+}
 .icon-search{
     position: absolute;
     margin-left: 450px;
     margin-top: 18px;
 }
+.form-control{
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    width: 30rem;
+    background-color: #F5F5F5;
+    border-color: #F5F5F5 ;
+}
 .logo-pesquisar{
     display: flex;
+}
+.menu-navegação{
+    margin-top: 1rem;
+    padding-left: 0.8rem;
 }
 .nav-link:hover{
     color: #C92071 !important;
 }
 .nav-link{
-    color: black !important;
-}
-.menu-navegação{
-    margin-top: 20px;
-    margin-left: 45px;
-}
-.d-flex{
-    margin-right: 100px;
-    width:500px;
-}
-.container-fluid{
-    justify-content: space-evenly !important;
-    gap: 100px;
+    color: #474747 !important;
 }
 .btn-cadastro{
-    color: black !important;
+    color: #474747 !important;
 }
-.btn-entrar{
+.btn-outline-success{
     padding-right: 30px;
     padding-left: 30px;
     background-color:  #C92071 ;
@@ -39,5 +43,7 @@
     text-align: center;
     border-color: #C92071;
 }
-
-
+.btn-outline-success:hover{
+    background-color:#991956 !important ;
+    border-color:#991956 !important;
+}
