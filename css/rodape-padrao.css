@@ -29,6 +29,7 @@
 .col_subtitulo{
     font-size: 18px;
     margin-top: 0.8em;
+    font-size: 22px;
 }
 
 .col_icons {
@@ -59,4 +60,80 @@ a {
     font-size: 13px;
     margin: 1.5rem;
 }
+
+
+/* ------------------ Responsividade -------------------- */
+
+/* Breakpoint prefix    Minimum width    CSS
+sm    640px    @media (min-width: 640px) { ... }
+md    768px    @media (min-width: 768px) { ... }
+lg    1024px    @media (min-width: 1024px) { ... }
+xl    1280px    @media (min-width: 1280px) { ... }
+2xl    1536px    @media (min-width: 1536px) { ... } */
+
+@media (min-width: 640px) {
+   
+    .grids {
+        align-items: flex-start;
+        margin: 4em 0 2em 0;
+    }
+
+    .container {
+        margin-left: 1em;
+    }
+
+
+    .col_logo {
+        height: 30px;
+        width: 170px;
+    }
+
+    .col_texto {
+        margin-top: 0.5em;
+        font-size: 14px;
+    }
+
+    .mapa {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    
+
+    .col_logo {
+        height: 30px;
+        width: 170px;
+    }
+
+    .col_texto {
+        margin-top: 0.5em;
+        font-size: 14px;
+    }
+    
+    .col_icons {
+        width: 125px;
+        height: 20px;
+    }
+
+    .mapa {
+        display: none;
+    }
+
+}
+@media (min-width: 1024px) {
+    .mapa {
+        display: block;
+    }
+}
+@media (min-width: 1280px) {
+    .mapa {
+        display: block;
+    }
+}
+@media (min-width: 1536px) {
+    .mapa {
+        display: block;
+    }
+}
+
 
