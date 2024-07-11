@@ -27,5 +27,6 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   font-style: normal;
+  font-size: 16px;
   scroll-behavior: smooth;
 }
